@@ -7,11 +7,22 @@ html,body {
   max-width: 240px;
   max-height: 240px;
   border-radius: 50%; 
-  border: 10px solid grey; 
+  border: 10px solid grey;  
+  //border-color: #4FC649;
   box-shadow: 2px 2px 0px rgba(0,0,0, 0.18);
   transition: all 0.1s ease-in;
+  text-align: center;
+  margin-left:  auto;
+  margin-right:auto;
+  display:block;
 }
 
+.speaker p{
+    margin-left:  auto;
+    margin-right:auto;
+    display:block;
+    text-align: center;
+}
 .speaker span {
   padding: 14px 20px;
   display: inline-block;
